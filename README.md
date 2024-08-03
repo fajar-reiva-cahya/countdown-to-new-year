@@ -1,12 +1,12 @@
-# Countdown Timer
+### Countdown Timer
 
 Countdown Timer adalah aplikasi web sederhana yang bikin kamu bisa menghitung mundur waktu sampai tanggal atau waktu tertentu. Dibuat dengan HTML, CSS, dan JavaScript.
 
-# Fitur
+### Fitur
 
 - Tampilkan waktu yang tersisa dalam format jam, menit, dan detik
 
-# Struktur Proyek
+### Struktur Proyek
 
 - `index.html` - Halaman utama yang berisi struktur HTML aplikasi.
 - `style.css` - Styling untuk tampilan aplikasi.
