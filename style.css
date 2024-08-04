@@ -1,0 +1,146 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Main Heading */
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+/* Container Styles */
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./image/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Content Container */
+.content {
+  text-align: center;
+}
+
+/* Countdown Timer */
+.countdown {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center items horizontally */
+  gap: 2rem; /* Add space between countdown items */
+  margin-bottom: 2rem; /* Space below countdown */
+}
+
+/* Timer Digits */
+.container-day,
+.container-hour,
+.container-minute,
+.container-second {
+  text-align: center; /* Center text inside each container */
+}
+
+.container-day h3,
+.container-hour h3,
+.container-minute h3,
+.container-second h3 {
+  font-size: 3rem; /* Font size for numbers */
+}
+
+.container-day h3:nth-of-type(2),
+.container-hour h3:nth-of-type(2),
+.container-minute h3:nth-of-type(2),
+.container-second h3:nth-of-type(2) {
+  font-size: 1.5rem; /* Font size for labels */
+}
+
+/* Social Media Icons */
+.social-media {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  gap: 1rem; /* Space between icons */
+  margin-top: 1.5rem; /* Space above the social media icons */
+}
+
+.social-icon {
+  font-size: 2rem; /* Icon size */
+  color: #000; /* Icon color - black */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.social-icon:hover {
+  color: #555; /* Change color on hover (optional) */
+}
+
+/* Image Styling */
+.waiting {
+  height: 50vh;
+}
+
+/* Responsive Styles for Android and Small Screens */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.9rem;
+    padding: 2rem;
+  }
+
+  .container-day h3,
+  .container-hour h3,
+  .container-minute h3,
+  .container-second h3 {
+    font-size: 2rem; /* Smaller font size for countdown */
+  }
+
+  .container-day h3:nth-of-type(2),
+  .container-hour h3:nth-of-type(2),
+  .container-minute h3:nth-of-type(2),
+  .container-second h3:nth-of-type(2) {
+    font-size: 1rem; /* Smaller font size for labels */
+  }
+
+  .social-media {
+    margin-top: 1rem; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.9rem;
+    padding: 1.5rem;
+  }
+
+  .countdown {
+    margin-bottom: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .container-day h3,
+  .container-hour h3,
+  .container-minute h3,
+  .container-second h3 {
+    font-size: 1.5rem; /* Smaller font size for countdown */
+  }
+
+  .container-day h3:nth-of-type(2),
+  .container-hour h3:nth-of-type(2),
+  .container-minute h3:nth-of-type(2),
+  .container-second h3:nth-of-type(2) {
+    font-size: 0.8rem; /* Smaller font size for labels */
+  }
+
+  .social-media {
+    margin-top: 0.5rem; /* Adjust margin for smaller screens */
+  }
+
+  .waiting {
+    height: 30vh;
+  }
+}
