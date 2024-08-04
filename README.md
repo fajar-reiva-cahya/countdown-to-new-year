@@ -13,4 +13,4 @@ Countdown Timer adalah aplikasi web sederhana yang bikin kamu bisa menghitung mu
 - `script.js` - Logika JavaScript untuk menghitung mundur dan memperbarui tampilan.
 
 ### Deployments Pages
-`https://fajar-reiva-cahya.github.io/countdown-to-new-year`
+- Link Page : https://fajar-reiva-cahya.github.io/countdown-to-new-year
